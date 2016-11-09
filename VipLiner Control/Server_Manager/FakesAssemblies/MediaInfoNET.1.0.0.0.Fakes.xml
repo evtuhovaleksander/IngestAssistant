@@ -1,0 +1,1322 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MediaInfoNET.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:MediaInfoNET.Fakes.ShimFile">
+            <summary>Shim type of MediaInfoNET.File</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimFile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimFile.#ctor(MediaInfoNET.File)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimFile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimFile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimFile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimFile.ConstructorString">
+            <summary>Sets the shim of File.File(String SourceFile)</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimFile.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaFile">
+            <summary>Shim type of MediaInfoNET.MediaFile</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaFile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaFile.#ctor(MediaInfoNET.MediaFile)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaFile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaFile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.ConstructorString">
+            <summary>Sets the shim of MediaFile.MediaFile(String SourceFile)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.DeleteProperties">
+            <summary>Sets the shim of MediaFile.DeleteProperties()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.FileSizeGet">
+            <summary>Sets the shim of MediaFile.get_FileSize()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.FrameCountGet">
+            <summary>Sets the shim of MediaFile.get_FrameCount()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.GetMediaInfoBoolean">
+            <summary>Sets the shim of MediaFile.GetMediaInfo(Boolean AppendInfo)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.InfoAvailableGet">
+            <summary>Sets the shim of MediaFile.get_InfoAvailable()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.StreamCountGet">
+            <summary>Sets the shim of MediaFile.get_StreamCount()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.addPropertiesMediaInfo_Stream_GeneralListOfMediaInfo_StreamBoolean">
+            <summary>Sets the shim of MediaFile.addProperties(MediaInfo_Stream_General m_General, List`1&lt;MediaInfo_Stream&gt; m_AllStreams, Boolean IsMediaInfo)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.getDescription">
+            <summary>Sets the shim of MediaFile.getDescription()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.getInfoText">
+            <summary>Sets the shim of MediaFile.getInfoText()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.setStreamTypeIndicesListOfMediaInfo_StreamRef">
+            <summary>Sets the shim of MediaFile.setStreamTypeIndices(List`1&lt;MediaInfo_Stream&gt;&amp; streamList)</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaFile.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.DeleteProperties">
+            <summary>Sets the shim of MediaFile.DeleteProperties()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.FileSizeGet">
+            <summary>Sets the shim of MediaFile.get_FileSize()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.FrameCountGet">
+            <summary>Sets the shim of MediaFile.get_FrameCount()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.GetMediaInfoBoolean">
+            <summary>Sets the shim of MediaFile.GetMediaInfo(Boolean AppendInfo)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.InfoAvailableGet">
+            <summary>Sets the shim of MediaFile.get_InfoAvailable()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.StreamCountGet">
+            <summary>Sets the shim of MediaFile.get_StreamCount()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.addPropertiesMediaInfo_Stream_GeneralListOfMediaInfo_StreamBoolean">
+            <summary>Sets the shim of MediaFile.addProperties(MediaInfo_Stream_General m_General, List`1&lt;MediaInfo_Stream&gt; m_AllStreams, Boolean IsMediaInfo)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.getDescription">
+            <summary>Sets the shim of MediaFile.getDescription()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.getHTMLStringRefMediaInfo_Stream_GeneralRefListOfMediaInfo_StreamRef">
+            <summary>Sets the shim of MediaFile.getHTML(String&amp; StringHTML, MediaInfo_Stream_General&amp; m_General, List`1&lt;MediaInfo_Stream&gt;&amp; m_AllStreams)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.getInfoText">
+            <summary>Sets the shim of MediaFile.getInfoText()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaFile.AllInstances.setStreamTypeIndicesListOfMediaInfo_StreamRef">
+            <summary>Sets the shim of MediaFile.setStreamTypeIndices(List`1&lt;MediaInfo_Stream&gt;&amp; streamList)</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo">
+            <summary>Shim type of MediaInfoNET.MediaInfo</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo.#ctor(MediaInfoNET.MediaInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.Close">
+            <summary>Sets the shim of MediaInfo.Close()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.Constructor">
+            <summary>Sets the shim of MediaInfo.MediaInfo()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.Count_GetStreamKindUInt32">
+            <summary>Sets the shim of MediaInfo.Count_Get(StreamKind StreamKind, UInt32 StreamNumber)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.Get_StreamKindInt32Int32InfoKind">
+            <summary>Sets the shim of MediaInfo.Get_(StreamKind StreamKind, Int32 StreamNumber, Int32 Parameter, InfoKind KindOfInfo)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.Get_StreamKindInt32StringInfoKindInfoKind">
+            <summary>Sets the shim of MediaInfo.Get_(StreamKind StreamKind, Int32 StreamNumber, String Parameter, InfoKind KindOfInfo, InfoKind KindOfSearch)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.Inform">
+            <summary>Sets the shim of MediaInfo.Inform()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.OpenString">
+            <summary>Sets the shim of MediaInfo.Open(String FileName)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.Option_StringString">
+            <summary>Sets the shim of MediaInfo.Option_(String Option__, String Value)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.State_Get">
+            <summary>Sets the shim of MediaInfo.State_Get()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances.Close">
+            <summary>Sets the shim of MediaInfo.Close()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances.Count_GetStreamKindUInt32">
+            <summary>Sets the shim of MediaInfo.Count_Get(StreamKind StreamKind, UInt32 StreamNumber)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances.Get_StreamKindInt32Int32InfoKind">
+            <summary>Sets the shim of MediaInfo.Get_(StreamKind StreamKind, Int32 StreamNumber, Int32 Parameter, InfoKind KindOfInfo)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances.Get_StreamKindInt32StringInfoKindInfoKind">
+            <summary>Sets the shim of MediaInfo.Get_(StreamKind StreamKind, Int32 StreamNumber, String Parameter, InfoKind KindOfInfo, InfoKind KindOfSearch)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances.Inform">
+            <summary>Sets the shim of MediaInfo.Inform()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances.OpenString">
+            <summary>Sets the shim of MediaInfo.Open(String FileName)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances.Option_StringString">
+            <summary>Sets the shim of MediaInfo.Option_(String Option__, String Value)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo.AllInstances.State_Get">
+            <summary>Sets the shim of MediaInfo.State_Get()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream.#ctor(MediaInfoNET.MediaInfo_Stream)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.BitrateGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.CodecIDGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream.MediaInfo_Stream()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.DurationMillisGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_DurationMillis()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.DurationStringAccurateGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_DurationStringAccurate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.DurationStringGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_DurationString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.FormatGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.GetPropertyString">
+            <summary>Sets the shim of MediaInfo_Stream.GetProperty(String Name)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.IDGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_ID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.StreamSizeGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_StreamSize()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_StreamType()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.ToString">
+            <summary>Sets the shim of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.BitrateGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.CodecIDGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.DurationMillisGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_DurationMillis()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.DurationStringAccurateGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_DurationStringAccurate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.DurationStringGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_DurationString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.FormatGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.GetPropertyString">
+            <summary>Sets the shim of MediaInfo_Stream.GetProperty(String Name)</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.IDGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_ID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.StreamSizeGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_StreamSize()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream.get_StreamType()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream.AllInstances.ToString01">
+            <summary>Sets the shim of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream_Audio</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.#ctor(MediaInfoNET.MediaInfo_Stream_Audio)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.ChannelsGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_Channels()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.MediaInfo_Stream_Audio()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.MPlayerIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_MPlayerID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.SamplingRateGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_SamplingRate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.AllInstances.ChannelsGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_Channels()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.AllInstances.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.AllInstances.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.AllInstances.MPlayerIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_MPlayerID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.AllInstances.SamplingRateGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_SamplingRate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Audio.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Audio.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream_Chapters</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.#ctor(MediaInfoNET.MediaInfo_Stream_Chapters)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream_Chapters.MediaInfo_Stream_Chapters()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Chapters.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Chapters.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.AllInstances.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Chapters.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Chapters.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Chapters.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream_Data</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.#ctor(MediaInfoNET.MediaInfo_Stream_Data)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream_Data.MediaInfo_Stream_Data()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Data.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Data.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Data.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.AllInstances.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Data.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.AllInstances.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Data.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Data.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Data.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream_General</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.#ctor(MediaInfoNET.MediaInfo_Stream_General)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.BitrateGet">
+            <summary>Sets the shim of MediaInfo_Stream_General.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream_General.MediaInfo_Stream_General()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.ExtensionGet">
+            <summary>Sets the shim of MediaInfo_Stream_General.get_Extension()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_General.get_StreamType()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.ToString">
+            <summary>Sets the shim of MediaInfo_Stream_General.ToString()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.AllInstances.BitrateGet">
+            <summary>Sets the shim of MediaInfo_Stream_General.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.AllInstances.ExtensionGet">
+            <summary>Sets the shim of MediaInfo_Stream_General.get_Extension()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_General.get_StreamType()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_General.AllInstances.ToString01">
+            <summary>Sets the shim of MediaInfo_Stream_General.ToString()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream_Image</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.#ctor(MediaInfoNET.MediaInfo_Stream_Image)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream_Image.MediaInfo_Stream_Image()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.FrameSizeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_FrameSize()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.HeightGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_Height()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.PixelFormatGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_PixelFormat()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.ResolutionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_Resolution()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_StreamType()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.WidthGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_Width()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.AllInstances.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.AllInstances.FrameSizeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_FrameSize()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.AllInstances.HeightGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_Height()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.AllInstances.PixelFormatGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_PixelFormat()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.AllInstances.ResolutionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_Resolution()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_StreamType()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Image.AllInstances.WidthGet">
+            <summary>Sets the shim of MediaInfo_Stream_Image.get_Width()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream_Menu</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.#ctor(MediaInfoNET.MediaInfo_Stream_Menu)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream_Menu.MediaInfo_Stream_Menu()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Menu.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Menu.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.AllInstances.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Menu.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Menu.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Menu.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream_Text</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.#ctor(MediaInfoNET.MediaInfo_Stream_Text)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream_Text.MediaInfo_Stream_Text()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.LanguageGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_Language()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.MPlayerIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_MPlayerID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.AllInstances.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.AllInstances.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.AllInstances.LanguageGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_Language()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.AllInstances.MPlayerIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_MPlayerID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Text.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Text.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video">
+            <summary>Shim type of MediaInfoNET.MediaInfo_Stream_Video</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.#ctor(MediaInfoNET.MediaInfo_Stream_Video)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.Constructor">
+            <summary>Sets the shim of MediaInfo_Stream_Video.MediaInfo_Stream_Video()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.FrameRateGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_FrameRate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.FrameSizeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_FrameSize()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.HeightGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_Height()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.IsInterlacedGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_IsInterlaced()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.MPlayerIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_MPlayerID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.PixelFormatGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_PixelFormat()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.ResolutionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_Resolution()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_StreamType()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.WidthGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_Width()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.DescriptionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.FormatIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.FrameRateGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_FrameRate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.FrameSizeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_FrameSize()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.HeightGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_Height()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.IsInterlacedGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_IsInterlaced()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.MPlayerIDGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_MPlayerID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.PixelFormatGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_PixelFormat()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.ResolutionGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_Resolution()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.StreamTypeGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_StreamType()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.ShimMediaInfo_Stream_Video.AllInstances.WidthGet">
+            <summary>Sets the shim of MediaInfo_Stream_Video.get_Width()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubFile">
+            <summary>Stub type of MediaInfoNET.File</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubFile.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubFile.InitializeStub">
+            <summary>Initializes a new instance of type StubFile</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubFile.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubFile.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubFile.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaFile">
+            <summary>Stub type of MediaInfoNET.MediaFile</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaFile.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaFile.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaFile</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaFile.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaFile.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaFile.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo">
+            <summary>Stub type of MediaInfoNET.MediaInfo</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream.ToString">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.Description">
+            <summary>Sets the stub of MediaInfo_Stream.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream_Audio</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream_Audio.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream_Audio.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream_Audio</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream_Audio.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.ToString">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.Description">
+            <summary>Sets the stub of MediaInfo_Stream_Audio.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream_Audio.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Audio.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream_Audio.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream_Chapters</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream_Chapters.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream_Chapters</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream_Chapters.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.ToString">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.Description">
+            <summary>Sets the stub of MediaInfo_Stream_Chapters.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Chapters.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream_Chapters.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream_Data</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream_Data.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream_Data.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream_Data</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream_Data.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.ToString">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.Description">
+            <summary>Sets the stub of MediaInfo_Stream_Data.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream_Data.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Data.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream_Data.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream_General">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream_General</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream_General.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream_General</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream_General.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.ToString">
+            <summary>Sets the stub of MediaInfo_Stream_General.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream_General.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream_General.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.Description">
+            <summary>Sets the stub of MediaInfo_Stream.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_General.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream_General.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream_Image</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream_Image.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream_Image</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream_Image.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.ToString">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.Description">
+            <summary>Sets the stub of MediaInfo_Stream_Image.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Image.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream_Image.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream_Menu</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream_Menu.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream_Menu</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream_Menu.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.ToString">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.Description">
+            <summary>Sets the stub of MediaInfo_Stream_Menu.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Menu.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream_Menu.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream_Text</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream_Text.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream_Text.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream_Text</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream_Text.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.ToString">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.Description">
+            <summary>Sets the stub of MediaInfo_Stream_Text.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream_Text.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Text.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream_Text.get_StreamType()</summary>
+        </member>
+        <member name="T:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video">
+            <summary>Stub type of MediaInfoNET.MediaInfo_Stream_Video</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.BitrateGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.CodecIDGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.DescriptionGet">
+            <summary>Sets the stub of MediaInfo_Stream_Video.get_Description()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.FormatGet">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.FormatIDGet">
+            <summary>Sets the stub of MediaInfo_Stream_Video.get_FormatID()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.InitializeStub">
+            <summary>Initializes a new instance of type StubMediaInfo_Stream_Video</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.StreamTypeGet">
+            <summary>Sets the stub of MediaInfo_Stream_Video.get_StreamType()</summary>
+        </member>
+        <member name="M:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.ToString">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="F:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.ToString01">
+            <summary>Sets the stub of MediaInfo_Stream.ToString()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.Bitrate">
+            <summary>Sets the stub of MediaInfo_Stream.get_Bitrate()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.CodecID">
+            <summary>Sets the stub of MediaInfo_Stream.get_CodecID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.Description">
+            <summary>Sets the stub of MediaInfo_Stream_Video.get_Description()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.Format">
+            <summary>Sets the stub of MediaInfo_Stream.get_Format()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.FormatID">
+            <summary>Sets the stub of MediaInfo_Stream_Video.get_FormatID()</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:MediaInfoNET.Fakes.StubMediaInfo_Stream_Video.StreamType">
+            <summary>Sets the stub of MediaInfo_Stream_Video.get_StreamType()</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.MediaInfoNETDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of MediaInfoNET</summary>
+        </member>
+    </members>
+</doc>

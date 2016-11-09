@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CD2C3B42-C4BE-4AE7-8CB2-3EA4C5768021}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ingest_Assistant</RootNamespace>
+    <AssemblyName>Ingest Assistant</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\10.2.68.19\Work\Assistant Complex Instalation Pack\Ingest Assistant\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\10.2.68.19\Work\Assistant Complex Instalation Pack\Ingest Assistant\</UpdateUrl>
+    <MinimumRequiredVersion>2.0.1.13</MinimumRequiredVersion>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>52</ApplicationRevision>
+    <ApplicationVersion>2.5.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>203C3F49D5B75B057FF7311AEE9CC1E56CF2BC3C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>VipLiner Control_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>NEW_ICO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MediaInfoNET, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Aevtuhov\Desktop\VipLiner Control\VipLiner Control\bin\Debug\MediaInfoNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Александр\Documents\Visual Studio 2015\Projects\Universal Server TEst\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Александр\Documents\Visual Studio 2015\Projects\Universal Server TEst\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Александр\Documents\Visual Studio 2015\Projects\Universal Server TEst\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Fabric.Plugin, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Александр\Documents\Visual Studio 2015\Projects\Universal Server TEst\MySql.Fabric.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Александр\Documents\Visual Studio 2015\Projects\Universal Server TEst\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddToBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToBase.Designer.cs">
+      <DependentUpon>AddToBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ask_MessageBOX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ask_MessageBOX.Designer.cs">
+      <DependentUpon>Ask_MessageBOX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ASM_Time_Reservation_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASM_Time_Reservation_Form.Designer.cs">
+      <DependentUpon>ASM_Time_Reservation_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base_Show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base_Show.Designer.cs">
+      <DependentUpon>Base_Show.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base_Show_Pro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base_Show_Pro.Designer.cs">
+      <DependentUpon>Base_Show_Pro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browser.Designer.cs">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consolidate_Ask_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consolidate_Ask_Form.Designer.cs">
+      <DependentUpon>Consolidate_Ask_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consolidate_Options.cs" />
+    <Compile Include="conversion form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversion form.Designer.cs">
+      <DependentUpon>conversion form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Correction_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Correction_Form.Designer.cs">
+      <DependentUpon>Correction_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Time_Span.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_Time_Span.Designer.cs">
+      <DependentUpon>Data_Time_Span.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectoryM.cs" />
+    <Compile Include="DirectoryM_Container.cs" />
+    <Compile Include="FileCopyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileCopyForm.Designer.cs">
+      <DependentUpon>FileCopyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileM.cs" />
+    <Compile Include="FS_Operations.cs" />
+    <Compile Include="Get_Connection_To_Server_String.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Get_Connection_To_Server_String.Designer.cs">
+      <DependentUpon>Get_Connection_To_Server_String.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log_Class.cs" />
+    <Compile Include="Log_Col_Ask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log_Col_Ask.Designer.cs">
+      <DependentUpon>Log_Col_Ask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log_Show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log_Show.Designer.cs">
+      <DependentUpon>Log_Show.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Media_Info.cs" />
+    <Compile Include="Media_Info_Show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Media_Info_Show.Designer.cs">
+      <DependentUpon>Media_Info_Show.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBOX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBOX.Designer.cs">
+      <DependentUpon>MessageBOX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetaDatesClass.cs" />
+    <Compile Include="MetaDatesCorrection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetaDatesCorrection.Designer.cs">
+      <DependentUpon>MetaDatesCorrection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateTm.cs" />
+    <Compile Include="File_Comands.cs" />
+    <Compile Include="Main Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form.Designer.cs">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetaDataCorrection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetaDataCorrection.Designer.cs">
+      <DependentUpon>MetaDataCorrection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordForm.Designer.cs">
+      <DependentUpon>PasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pre_Lauch_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pre_Lauch_Form.designer.cs">
+      <DependentUpon>Pre_Lauch_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile_Settings.Designer.cs">
+      <DependentUpon>Profile_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Raport_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Raport_Form.Designer.cs">
+      <DependentUpon>Raport_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegularExpression.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Settings_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings_Form.Designer.cs">
+      <DependentUpon>Settings_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Full_Process.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Full_Process.Designer.cs">
+      <DependentUpon>Show_Full_Process.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQL_Class.cs" />
+    <Compile Include="System_Settings_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System_Settings_Form.Designer.cs">
+      <DependentUpon>System_Settings_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File_Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File_Work.Designer.cs">
+      <DependentUpon>File_Work.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Web_Form.Designer.cs">
+      <DependentUpon>Web_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XML_Class.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="AddToBase.resx">
+      <DependentUpon>AddToBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ask_MessageBOX.resx">
+      <DependentUpon>Ask_MessageBOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASM_Time_Reservation_Form.resx">
+      <DependentUpon>ASM_Time_Reservation_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base_Show.resx">
+      <DependentUpon>Base_Show.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base_Show_Pro.resx">
+      <DependentUpon>Base_Show_Pro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser.resx">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consolidate_Ask_Form.resx">
+      <DependentUpon>Consolidate_Ask_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conversion form.resx">
+      <DependentUpon>conversion form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Correction_Form.resx">
+      <DependentUpon>Correction_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Time_Span.resx">
+      <DependentUpon>Data_Time_Span.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileCopyForm.resx">
+      <DependentUpon>FileCopyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Get_Connection_To_Server_String.resx">
+      <DependentUpon>Get_Connection_To_Server_String.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log_Col_Ask.resx">
+      <DependentUpon>Log_Col_Ask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log_Show.resx">
+      <DependentUpon>Log_Show.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media_Info_Show.resx">
+      <DependentUpon>Media_Info_Show.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBOX.resx">
+      <DependentUpon>MessageBOX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaDatesCorrection.resx">
+      <DependentUpon>MetaDatesCorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form.resx">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaDataCorrection.resx">
+      <DependentUpon>MetaDataCorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordForm.resx">
+      <DependentUpon>PasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pre_Lauch_Form.resx">
+      <DependentUpon>Pre_Lauch_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile_Settings.resx">
+      <DependentUpon>Profile_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="File_Work.resx">
+      <DependentUpon>File_Work.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Raport_Form.resx">
+      <DependentUpon>Raport_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings_Form.resx">
+      <DependentUpon>Settings_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Full_Process.resx">
+      <DependentUpon>Show_Full_Process.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System_Settings_Form.resx">
+      <DependentUpon>System_Settings_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web_Form.resx">
+      <DependentUpon>Web_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\xls.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NEW_ICO.ico" />
+    <None Include="Resources\alpha 4.jpg" />
+    <None Include="Resources\LOCKED BLOCK.jpg" />
+    <None Include="Resources\sous.jpg" />
+    <None Include="Resources\angara1.jpg" />
+    <None Include="Resources\angara.jpg" />
+    <None Include="Resources\pb1.gif" />
+    <Content Include="IngestAssistant.ico" />
+    <None Include="Resources\error.jpg" />
+    <None Include="Resources\logo.jpg" />
+    <None Include="Resources\refresh.bmp" />
+    <None Include="Resources\icon-27453_640.png" />
+    <None Include="Resources\refresh.jpg" />
+    <None Include="Resources\refresh1.jpg" />
+    <None Include="Resources\error1.jpg" />
+    <None Include="Resources\MediaInfo.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.Web.Infrastructure">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MySql.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MySql.Data.Entity">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MySql.Web">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Web.Helpers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Web.Razor">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Web.WebPages">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Web.WebPages.Deployment">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Web.WebPages.Razor">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="WebMatrix.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="WebMatrix.WebData">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

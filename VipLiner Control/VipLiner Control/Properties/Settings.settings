@@ -1,0 +1,126 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Ingest_Assistant.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Work_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Work\Ingest_2_16</Value>
+    </Setting>
+    <Setting Name="Stock_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Inbox\Stock</Value>
+    </Setting>
+    <Setting Name="Master_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Inbox\_MASTER_Prep</Value>
+    </Setting>
+    <Setting Name="Archive_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Work\Ingest_2_16\WorkARCHIVE</Value>
+    </Setting>
+    <Setting Name="Shablon_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Work\Ingest_2_16\WorkARCHIVE\Shablon</Value>
+    </Setting>
+    <Setting Name="MetaBase_Way" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Work\Ingest_2_16\WorkARCHIVE\Shablon\Ingest Assistant.sdf</Value>
+    </Setting>
+    <Setting Name="Browser_Is_In_Archive_Dir" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Green</Value>
+    </Setting>
+    <Setting Name="Browser_Isnt_In_Work_Dir" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="Work_Max_Value" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="Arch_Max_Value" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Browser_Is_In_Archive_Dir_NOT_TODAY" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Turquoise</Value>
+    </Setting>
+    <Setting Name="Browser_Isnt_In_Work_Dir_NOT_TODAY" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Turquoise</Value>
+    </Setting>
+    <Setting Name="Temp_Files_Directory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\\Ingest Assistant Temp Files</Value>
+    </Setting>
+    <Setting Name="Base_Archive" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Work\Ingest_2_16\WorkARCHIVE\Base_Archive</Value>
+    </Setting>
+    <Setting Name="Complete_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Work\Complete</Value>
+    </Setting>
+    <Setting Name="Day_Work_Time" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="Additional_Work_Types" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1|2|3</Value>
+    </Setting>
+    <Setting Name="Log_Base_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\\Ingest Assistant Temp Files\LogDataBase.sdf</Value>
+    </Setting>
+    <Setting Name="Setting_Profile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Setting_Base_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.2.68.19\Work\Ingest_2_16\Ingest Assistant\IASettingsBase.sdf</Value>
+    </Setting>
+    <Setting Name="Direct_Show_Adress" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Max_Elements_For_DGV" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="Group1Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Group2Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Group3Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Group4Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Group5Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Main_Settings_Base_Path" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">server=10.2.102.108;database=ingestassistantsettingsbase;user id=IA;password=QAz123456;</Value>
+    </Setting>
+    <Setting Name="Alow_Logging" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Consolidate_Directories" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1|2|3|4|5|6</Value>
+    </Setting>
+    <Setting Name="Profile_ID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Reservations" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MetaDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MetaData" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Other_Work_File_Types" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="User_ID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Base_Show_Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="XML_Editor_Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AdminMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Base_Show_Setting_Set" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

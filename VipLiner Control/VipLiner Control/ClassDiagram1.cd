@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Ingest_Assistant.AddToBase">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ingest_Assistant.AddToBase.MetaData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AddToBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>9yVczYBEIHEozDqoQIGoGqCHsSgdJlGE4OY0BKhSUAU=</HashCode>
+      <FileName>AddToBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Base_Administration" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAgQQAgCRAgBFoAACACAAKAiECAAEAACACAAAAAEA=</HashCode>
+      <FileName>Base_Administration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Base_Show">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ingest_Assistant.Base_Show.Big_Element" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Base_Show.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gUAgJAQMDPhiTREGCSaHRAEKQJm5Z5YE6GggCWgMNxU=</HashCode>
+      <FileName>Base_Show.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Base_Show_Pro" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAJQAMgCBCAQAACAKDAAACAIC4ZwAAYMABAAAEMhA=</HashCode>
+      <FileName>Base_Show_Pro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Browser" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AM4LACCEUCKASJKACAWBTBBOZphABAYBAKCQhAsUBAA=</HashCode>
+      <FileName>Browser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Consolidate_Ask_Form" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAACAAABACAAAACAEA4AAAAAHAIQAAAAAA=</HashCode>
+      <FileName>Consolidate_Ask_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Data_Time_Span" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIQAACACAAAAAAAACEAAAiCCAEiAAAACAAAAAAAAA=</HashCode>
+      <FileName>Data_Time_Span.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.DateTm">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ingest_Assistant.DateTm.tm" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DateTm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAgAAAgwAAEAAACAAoEACABgAERAABAgAAAggAAAA=</HashCode>
+      <FileName>DateTm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Emergensy_Way_To_Base" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAACAAhACAAAAABAAAQAQAIBAAIA=</HashCode>
+      <FileName>Emergensy_Way_To_Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.File_Comands" Collapsed="true">
+    <Position X="13" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ingest_Assistant.File_Comands.XLS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>File_Comands.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAABgAgAAQAAAAAAwAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>File_Comands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.File_Work" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+8bp3N8jmXZ+0vbYT2eXD+9eyPm+ne6VWOZM36pWIPQ=</HashCode>
+      <FileName>File_Work.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.FileCopyForm">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ingest_Assistant.FileCopyForm.FileCPY" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FileCopyForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Ingest_Assistant.FileCopyForm.ways" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FileCopyForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAMAASABABIgAJCAAAgCACAKAAJCAECIEAgAEAA=</HashCode>
+      <FileName>FileCopyForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.IngestAssistantDataSet" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Log_Col_Ask" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEEAAACASAAAAAACACgACAAgAACAAAIJIAAAAAAA=</HashCode>
+      <FileName>Log_Col_Ask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Log_Show" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Ingest_Assistant.Log_Show.Element" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Log_Show.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>/AiQjxBIQCXlDDXyOAiDCCAPQKL5ZwAEO2B8MAllIAs=</HashCode>
+      <FileName>Log_Show.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Log_SQL" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAwAKIBAQQEwABCAgIAAgEAJEQAAAAYAAQAgAw=</HashCode>
+      <FileName>SQL_Corected.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Main_Form" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sRnAiAIQADKACAAQGAiQCRQCZIAJBwQAAUBEAkYQAEg=</HashCode>
+      <FileName>Main Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Media_Info" Collapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAECAAAAAAAEAAAAIAJAQACgAAA=</HashCode>
+      <FileName>Media_Info.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Media_Info_Show" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAAACAAAAAAAACAAgACAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Media_Info_Show.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.MetaDatesClass" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAgikABAagAAAAGBoAABgIAgBIQBAgCAIDgIBASAEA=</HashCode>
+      <FileName>MetaDatesClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.MetaDatesCorrection" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABCAEACCgMiLYBAECAAgBCCaVAABAOCCCA4AEAFCA=</HashCode>
+      <FileName>MetaDatesCorrection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.PasswordForm" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAABAAAAKABAACAAAAAAAAAEAAAgAAEAA=</HashCode>
+      <FileName>PasswordForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Profile_Settings" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAGhDACgpAUEgCAAgACAUAAEAAAQDAAAAAAAIA=</HashCode>
+      <FileName>Profile_Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Program" Collapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Raport_Form">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ingest_Assistant.Raport_Form.Rap_Element" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Raport_Form.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BABAAgRIACUACAACAECgAgACACAFAAAAAAABIAhBATA=</HashCode>
+      <FileName>Raport_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Show_Full_Process" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwABgAIACAAAADAAACBAAACEAC4ZwABAAAAAAgAIAA=</HashCode>
+      <FileName>Show_Full_Process.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.System_Settings_Form" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ingest_Assistant.System_Settings_Form.FE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>System_Settings_Form.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAKBCAQYhAAAAWAAAgLAAAGAAAAACIAAAAAEAw=</HashCode>
+      <FileName>System_Settings_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.UpdateLog" Collapsed="true">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAQAAAAACAAAACAAAAEAACAAAQgAABBAA=</HashCode>
+      <FileName>UpdateLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.VipLinerDataBaseDataSet" Collapsed="true">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ingest_Assistant.Web_Form" Collapsed="true">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACAAAACAAAAEAAACAAAACQQAgAAAAIAAgEAAIAAA=</HashCode>
+      <FileName>Web_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

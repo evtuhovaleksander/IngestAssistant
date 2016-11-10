@@ -390,3 +390,6 @@ H:\VipLiner Control\VipLiner Control\obj\x86\Debug\Ingest_Assistant.System_Setti
 H:\VipLiner Control\VipLiner Control\obj\x86\Debug\Ingest_Assistant.Web_Form.resources
 H:\VipLiner Control\VipLiner Control\obj\x86\Debug\Ingest Assistant.csproj.GenerateResource.Cache
 E:\VipLiner Control\VipLiner Control\bin\Debug\Ingest Assistant.exe.config
+E:\GitRep\IngestAssistant\VipLiner Control\VipLiner Control\bin\Debug\Ingest Assistant.exe.config
+E:\GitRep\IngestAssistant\VipLiner Control\VipLiner Control\obj\x86\Debug\Ingest Assistant.exe
+E:\GitRep\IngestAssistant\VipLiner Control\VipLiner Control\obj\x86\Debug\Ingest Assistant.pdb
